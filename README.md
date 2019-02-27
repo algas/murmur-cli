@@ -4,7 +4,7 @@ Command line interface of murmur hash with docker and mmh3
 
 ## Usage
 
-`docker run algas/murmur-cli <target_string> [seed (option)]`
+`docker run --rm -t algas/murmur-cli <target_string> [seed (option)]`
 
 ## LICENSE
 
