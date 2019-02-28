@@ -4,7 +4,7 @@ import mmh3
 def get_hash(data, seed=None):
     if seed is None:
         return mmh3.hash(data)
-    return mmh3.hash(data, seed)
+    return mmh3.hash(data, seed, signed=False)
 
 def main(args):
     if len(args) > 1:
